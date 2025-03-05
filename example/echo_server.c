@@ -14,7 +14,7 @@
 //
 // On macOS you may need to add the following flags to your C compiler:
 //
-// 	-framework CoreFoundation -framework Security
+// 	-framework CoreFoundation -framework Security -framework IOKit
 //
 
 #include "../tailscale.h"
@@ -46,7 +46,7 @@ int main(void) {
 		}
 		close(conn);
 	}
-	tailscale_listener_close(ln);
+	close(ln);
 	tailscale_close(ts);
 
 	return 0;

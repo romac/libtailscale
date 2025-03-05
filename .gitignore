@@ -1,6 +1,13 @@
 libtailscale.so
 libtailscale.a
 libtailscale.h
+libtailscale.tar*
+
+/tstestcontrol/libtstestcontrol.a
+/tstestcontrol/libtstestcontrol.h
+
+/swift/build
+
 /ruby/tmp/
 /ruby/pkg/
 /ruby/doc/
@@ -8,4 +15,11 @@ libtailscale.h
 /ruby/ext/libtailscale/go.mod
 /ruby/ext/libtailscale/go.sum
 /ruby/LICENSE
+/ruby/LICENSE
+
 /target
+
+/sourcepkg/libtailscale
+/sourcepkg/libtailscale.tar*
+
+/vendor/
